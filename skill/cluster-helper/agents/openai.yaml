@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cluster Helper"
+  short_description: "Operate SSH cluster workers safely"
+  default_prompt: "Use $cluster-helper to inspect a remote worker, verify target logs, and avoid login-shell GPU visibility mistakes."
+
+policy:
+  allow_implicit_invocation: true
